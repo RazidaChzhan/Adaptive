@@ -1,0 +1,209 @@
+/* Общие свойства */
+.container {
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    background-image: url("../img/background.png");
+  }
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1170px;
+}
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+      box-sizing: border-box;
+ }
+ @media (min-width: 768px) {
+.col-md-1 { flex-basis: 8.3333%;}
+
+.col-md-2 { 
+    flex-basis: 16.6667%;
+    padding: 20px;
+}
+.col-md-3 { flex-basis: 24.9999%;}
+
+.col-md-4 { flex-basis: 33.3332%;}  
+
+.col-md-5 { flex-basis: 41.6665%;
+    padding-left: 40px;
+    padding-top: 60px;
+}
+
+.col-md-6 { flex-basis: 49.9998%;}
+
+.col-md-7 { flex-basis: 58.331%;}
+
+.col-md-8 { flex-basis: 66.6664%;}
+
+.col-md-9 { flex-basis: 74.9997%;}
+
+.col-md-10 { 
+    flex-basis: 83.3333%;
+    padding: 30px;
+    font-size: 18px;
+}
+.col-md-11 { flex-basis: 91.6663%;}
+
+.col-md-12 {flex-basis: 100%;}
+ }
+
+.logo-img, .color-red-img, .color-img, .size-img, .dotcolors-img, .ellipse-img {
+     max-width: 100%;
+}
+
+/* .background-header-img { */
+    max-width: 100%;
+    background-color: #f2f2f2;
+    background-image: url("../img/background.png"); 
+    opacity: 1;
+/* }    */
+/* .background-img { */
+    max-width: 100%;
+    background-color:#f3dde1;
+    background-image: url("../img/background.png"); 
+    opacity: 1;
+/* }  */
+
+.headphones-img, .speakers-img, .bluetooth-img {
+    position: relative;
+    bottom: 5px;
+    right: 3px;
+    max-width: 100%;  
+}
+.bluetooth-img {
+    position: relative;
+    top: 5px;
+    left: 10px;
+    max-width: 100%;  
+}
+.headphones-circle-img {
+    position: relative;
+    top: 35px;
+    left: 120px;
+    max-width: 50%;
+}
+.text {
+    padding: 20px;
+    text-align: center;
+}
+
+.product { 
+    /* width: 100px;
+    height: 40px;   */
+    color: red;
+    background-image: url("../img/background-text.png");
+    background-size: cover;
+
+   }
+.FEATURES {
+   align-content: center;
+}
+button {
+    background-color: red;
+    color: white;
+    text-align: center;
+    font-size: 11px;
+    height: 40px;
+    width: 180px;
+}
+.INTONE {
+    margin: 20px;
+    padding-top: 20px;
+}
+.button-1 {
+    background-color: red;
+    color: white;
+    text-align: center;
+    font-size: 11px;
+    height: 30px;
+    width: 100px;
+
+}
+.FEATURES {
+    text-align: center;
+}
+
+.size img {
+    opacity: 0.2;
+    max-width: 50%;
+    position: relative;
+    top: 10px;
+    left: 80px;
+}
+.colors img {
+    opacity: 1;
+    margin: 2px;
+    position: relative;
+    top: 0px;
+    left: 120px;
+    max-width: 50%;
+}
+h4 {
+    text-align: center;
+}
+p {
+   font-size: 14px;
+}
+a {
+    font-size: 14px;
+    color: black;
+    font-weight: bolder;
+    margin: 8px;
+}
+.ellipse {
+    max-width: 50%;
+    position: relative;
+    top: 10px;
+    left: 520px;
+    opacity: 0.4;
+}
+
+.logos img {
+    margin: 33px;
+}
+.subscribe {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.submit {
+    background-color: red;
+    color: white;
+    text-align: center;
+    font-size: 11px;
+    height: 30px;
+    width: 100px;
+}
+.icons img {
+    max-width: 10%;
+}
+body {
+    color: orange;
+  }
+
+@media (min-width: 768px) {
+    body {
+      color: red;
+    }
+    .container {
+        width: 30%;
+    }
+}
+  
+@media (min-width: 992px) {
+    body {
+      color: green;
+    }
+    .container {
+        width: 70%;
+    }
+}
+
+@media (min-width: 1200px) {
+    body {
+      color: blue;
+    }
+    .container {
+        width: 100%;
+    }
+}
