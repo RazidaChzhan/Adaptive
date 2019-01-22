@@ -3,7 +3,7 @@
     width: 100%;
     max-width: 1140px;
     margin: 0 auto;
-    background-image: url("../img/background.png");
+    /* background-image: url("../img/background.png"); */
   }
 .row {
     display: flex;
@@ -52,31 +52,37 @@
      max-width: 100%;
 }
 
-/* .background-header-img { */
+/* .background-header-img {
     max-width: 100%;
     background-color: #f2f2f2;
     background-image: url("../img/background.png"); 
     opacity: 1;
-/* }    */
-/* .background-img { */
+ } */
+/* .background-img {
     max-width: 100%;
     background-color:#f3dde1;
     background-image: url("../img/background.png"); 
-    opacity: 1;
-/* }  */
-
-.headphones-img, .speakers-img, .bluetooth-img {
+    : 1;
+ /* }   */
+ .speakers-img {
     position: relative;
     bottom: 5px;
-    right: 3px;
+    left: 3px;
     max-width: 100%;  
 }
 .bluetooth-img {
     position: relative;
-    top: 5px;
-    left: 10px;
+    bottom: 3px;
+    left: 9px;
     max-width: 100%;  
 }
+.headphones-img {
+    position: relative;
+    bottom: 6px;
+    left: 3px;
+    max-width: 100%;  
+}
+
 .headphones-circle-img {
     position: relative;
     top: 35px;
@@ -94,7 +100,6 @@
     color: red;
     background-image: url("../img/background-text.png");
     background-size: cover;
-
    }
 .FEATURES {
    align-content: center;
@@ -155,7 +160,7 @@ a {
     max-width: 50%;
     position: relative;
     top: 10px;
-    left: 520px;
+    left: 45%;
     opacity: 0.4;
 }
 
@@ -177,7 +182,7 @@ a {
 .icons img {
     max-width: 10%;
 }
-body {
+/* body {
     color: orange;
   }
 
@@ -206,4 +211,4 @@ body {
     .container {
         width: 100%;
     }
-}
+} */
